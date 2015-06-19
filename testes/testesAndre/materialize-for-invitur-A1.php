@@ -20,7 +20,7 @@ and open the template in the editor.
             <p class="">Coordenação Geral de Regionalização</p>
             <p class="">INVENTÁRIO DE OFERTA TURÍSTICA</p>
             <hr />
-            <h3>CATEGORIA A1 - INFORMAÇÕES BÁSICAS DO MUNICÍPIO</h3>
+            <h3>CATEGORIA A1 - INFORMAÇÕES BÁSICAS DO MUNICÍPIO  </h3>
 
            <!-- Início do layout collapse (contraído) -->
             <ul class="collapsible" data-collapsible="accordion"> <!-- Possiveis data: collapsible, expandable, accordion-->
@@ -34,7 +34,17 @@ and open the template in the editor.
                                     <input value="" id="txtUf" type="text" class="validate">
                                     <label class="active" for="uf">UF</label>
                                 </div>
-
+                                
+                                <!--<div class="input-field col s1">-->
+                                    <label>Teste de select</label>
+                                     <select class="browser-default">
+                                        <option value="teste1">Teste 1</option>
+                                        <option value="teste2">Teste 2</option>
+                                        <option value="teste3">Teste 3</option>
+                                        <option value="teste4">Teste 4</option>
+                                    </select>
+                                <!--</div>-->
+                                
                                 <div class="input-field col s3">
                                     <i class="mdi-maps-place prefix"></i>
                                     <input value="" id="txtRegTuristica" type="text" class="validate" required>
