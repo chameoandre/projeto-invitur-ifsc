@@ -1,10 +1,10 @@
 <?php
-    include './banco/conecta.php';
+    include './banco-estruturado/conecta.php';
     $sql = "select * from uf";
     $resultado = mysql_query($sql,$conexao);
     while($elemento = mysql_fetch_array($resultado)){
         $nomeUf = $elemento['nomeUf'];
-        echo $nomeUf;
+        echo "$nomeUf";
     }
     echo mysql_error();
 ?>
@@ -23,7 +23,7 @@
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo">Logo - Teste para visualizar o conteúdo</a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#">Navbar Link</a></li>
       </ul>
@@ -39,18 +39,19 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center teal-text text-lighten-2">Projeto Invitur - Ifsc Garopaba</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Plataforma responsíva para realização do Inventariado Turístico da região de Garopaba</h5>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+            <a href="materialize-for-invitur-A1.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A1 - Municípios</a>
+          <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A2.1.1 - Rodovia</a>-->
         </div>
         <br><br>
 
       </div>
     </div>
-      <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
+      <div class="parallax"><img src="img/surf-dunas-siriu.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
 
@@ -62,27 +63,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Categoria A</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Formulários contendo informações básicas do município e de serviços de Transporte.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Categoria B</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Formulários para cadastros de Meios de hospedagem, serviços e equipamentos de agências de turismo, instalações diversas e entidades diversas.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h5 class="center">Categoria C</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Formulários para cadastro de informações sobre o relevo, hidrografia, obras, gastronomia e atrações técnicas e científicas.</p>
           </div>
         </div>
       </div>
@@ -99,7 +100,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/background3.jpg" alt="Unsplashed background img 2"></div>
+      <div class="parallax"><img src="img/garopaba-satelite.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
@@ -167,8 +168,8 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="materialize/js/materialize.js"></script>
+  <script src="js-acoes/init.js"></script>
 
   </body>
 </html>
