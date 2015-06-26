@@ -1,7 +1,5 @@
 <?php
     include './banco-estruturado/conecta.php';
-    $sqlListaUf = "select * from uf";
-    $resultadoUf = mysql_query($sqlListaUf, $conexao);
 ?>
 <!DOCTYPE html>
 <!--
@@ -29,19 +27,20 @@ and open the template in the editor.
                     <div class="collapsible-header"><i class="mdi-social-location-city"></i>Identificação</div>
                         <div class="collapsible-body">
                             <div class="row">
-                               
-                                <!-- select dos estados -->
                                 <div class="input-field col s3">
-                                     <select class="browser-default" id="selUf" name="selUf">
-                                         <?php
-                                          while($elementoUf = mysql_fetch_array($resultadoUf)){
-                                              $siglaUf = $elementoUf['siglaUF'];
-                                              $idUf = $elementoUf['idUf'];
-                                              echo "<option value='$idUf'>$siglaUf</option>";
-                                          }
-                                         ?>
+                                    <i class="mdi-maps-local-library prefix"></i>
+                                    <input value="" id="txtUf" type="text" class="validate">
+                                    <label class="active" for="uf">UF</label>
+                                </div>
+                                
+                                <div class="input-field col s1">
+                                    <!--<label>Teste de select</label>-->
+                                     <select class="browser-default">
+                                        <option value="teste1">Teste 1</option>
+                                        <option value="teste2">Teste 2</option>
+                                        <option value="teste3">Teste 3</option>
+                                        <option value="teste4">Teste 4</option>
                                     </select>
-                                   <!-- <label>Selecione a UF</label>-->
                                 </div>
                                 
                                 <div class="input-field col s3">
@@ -52,23 +51,14 @@ and open the template in the editor.
 
                                 <div class="input-field col s3">
                                     <i class="mdi-communication-business prefix"></i>
-                                    <input value="" id="txtNomeMunicipio" type="text" class="validate">
-                                    <label class="active" for="txtNomeMunicipio">MUNICÍPIO</label>
+                                    <input value="" id="txtMunicipio" type="text" class="validate">
+                                    <label class="active" for="txtMunicipio">MUNICÍPIO</label>
                                 </div>
                             </div>  
-                        
-                        
-                        <div class="row">
-                            <div class="input-field col s7">
-                                    <i class="mdi-social-whatshot"></i>
-                                    <input value="" id="txtCaracterizacaoMun" type="text" class="validate">
-                                    <label class="active" for="txtCaracterizacaoMun">CARACTERIZAÇÃO DO MUNICÍPIO</label>
-                                </div>
                         </div>
-                        </div>    
                 </li>
                 <li>
-                    <!-- Segunda Seção -------------------------------------------------- -->
+                    <!-- Segunda Seção ---------------------- -->
                     <div class="collapsible-header"><i class="mdi-maps-rate-review"></i>1. Informações Gerais</div>
                         <!-- Início do corpo contraído-->
                     <div class="collapsible-body">
@@ -91,9 +81,6 @@ and open the template in the editor.
                                     <input value="" id="txtCep" type="text" class="validate">
                                     <label class="active" for="txtCep">CEP</label>
                                 </div>
-                        </div>
-                        
-                        <div class="row-fluid">
                             
                         </div>
                     </div>
