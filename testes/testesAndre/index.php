@@ -6,7 +6,7 @@
         $nomeUf = $elemento['nomeUf'];
         echo "$nomeUf";
     }
-    echo mysql_error();
+    //echo mysql_error();
 ?>
 
 <!DOCTYPE html>
@@ -41,7 +41,7 @@
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Projeto Invitur - Ifsc Garopaba</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Plataforma responsíva para realização do Inventariado Turístico da região de Garopaba</h5>
+          <h5 class="header col s12 light">Plataforma responsiva para realização do Inventariado Turístico da região de Garopaba</h5>
         </div>
         <div class="row center">
             <a href="materialize-for-invitur-A1.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A1 - Municípios</a>
