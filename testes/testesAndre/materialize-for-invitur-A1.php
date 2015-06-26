@@ -1,6 +1,3 @@
-<?php
-    include './banco-estruturado/conecta.php';
-?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -18,6 +15,11 @@ and open the template in the editor.
     </head>
     <body>
         <form class="" action="">
+            <p class="">Ministério do Turismo - Secretaria Nacional de Políticas do Turismo</p>
+            <p class="">Departamento de Estruturação, Articulação e Ordenamento Turístico</p>
+            <p class="">Coordenação Geral de Regionalização</p>
+            <p class="">INVENTÁRIO DE OFERTA TURÍSTICA</p>
+            <hr />
             <h3>CATEGORIA A1 - INFORMAÇÕES BÁSICAS DO MUNICÍPIO  </h3>
 
            <!-- Início do layout collapse (contraído) -->
@@ -33,15 +35,15 @@ and open the template in the editor.
                                     <label class="active" for="uf">UF</label>
                                 </div>
                                 
-                                <div class="input-field col s1">
-                                    <!--<label>Teste de select</label>-->
+                                <!--<div class="input-field col s1">-->
+                                    <label>Teste de select</label>
                                      <select class="browser-default">
                                         <option value="teste1">Teste 1</option>
                                         <option value="teste2">Teste 2</option>
                                         <option value="teste3">Teste 3</option>
                                         <option value="teste4">Teste 4</option>
                                     </select>
-                                </div>
+                                <!--</div>-->
                                 
                                 <div class="input-field col s3">
                                     <i class="mdi-maps-place prefix"></i>
