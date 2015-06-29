@@ -12,5 +12,11 @@ $(document).ready(function () {
     });
     $(".dropdown-button").dropdown(); //carregando os menus dropdown
     $('.button-collapse').sideNav(); //carregando os menus contraídos
+    //
+    //Início da área de testes
+    //-----------------------------------------------------------------------
+    
+    //-----------------------------------------------------------------------
+    //
     //$('.parallax').parallax(); //para deixar as imagens da home com efeito paralax
 }); 

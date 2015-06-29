@@ -17,7 +17,7 @@
   <!-- Dropdown Structure -->
 <nav>
   <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Logo</a>
+    <a href="#!" class="brand-logo">Projeto Invitur - IFSC Garopaba</a>
     <ul class="right hide-on-med-and-down">      
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-button" href="#!" data-activates="formulariosA">Categoria A<i class="material-icons right">arrow_drop_down</i></a></li>
@@ -27,102 +27,118 @@
     </ul>
   </div>
 </nav>
-    <ul id="formulariosA" class="dropdown-content">
-    <li><a href="#!">A1 - Informações Básicas do Município</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">A2.1.1 - Rodoviário - Rodovia</a></li>
-    <li><a href="#!">A2.1.2 - Rodoviário - Estação Rodoviária</a></li>
-    <li><a href="#!">A2.2.1 - Ferroviário - Ferrovia e Metrovia</a></li>
-    <li><a href="#!">A2.2.2 - Ferroviário - Estação Ferroviária</a></li>
-    <li><a href="#!">A2.3 - Aeroviário - Aeroporto e Campo de Pouso</a></li>
-    <li><a href="#!">A2.3 - Aeroviário - Heliporto</a></li>
-    <li><a href="#!">A2.4.1- Aquaviário - Hidrovia</a></li>
-    <li><a href="#!">A2.4.2- Aquaviário - Porto, Píer, Cais, etc.</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">A3 - Sistema de Comunicação</a></li>
-    <li><a href="#!">A4 - Sistema de Segurança</a></li>
-    <li><a href="#!">A5 - Sistema de Saúde</a></li>
-    <li><a href="#!">A6 - Sistema Educacional</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">A7.1 - Locadoras de Imóveis para Temporada</a></li>
-    <li><a href="#!">A7.2 - Compras Especiais</a></li>
-    <li><a href="#!">A7.3 - Comércio Turístico</a></li>
-    <li><a href="#!">A7.4 - Serviços Bancários</a></li>
-    <li><a href="#!">A7.5.6 - Serviços Mecânicos e Posto de Combustível</a></li>
-    <li><a href="#!">A7.7 - Representações Diplomáticas</a></li>
-  </ul>
   
+        <ul id="formulariosA" class="dropdown-content">
+            <li><a href="formularios/form-invitur-A1.php">A1 - Informações Básicas do Município</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">A2.1.1 - Rodoviário - Rodovia</a></li>
+            <li><a href="#!">A2.1.2 - Rodoviário - Estação Rodoviária</a></li>
+            <li><a href="#!">A2.2.1 - Ferroviário - Ferrovia e Metrovia</a></li>
+            <li><a href="#!">A2.2.2 - Ferroviário - Estação Ferroviária</a></li>
+            <li><a href="#!">A2.3 - Aeroviário - Aeroporto e Campo de Pouso</a></li>
+            <li><a href="#!">A2.3 - Aeroviário - Heliporto</a></li>
+            <li><a href="#!">A2.4.1- Aquaviário - Hidrovia</a></li>
+            <li><a href="#!">A2.4.2- Aquaviário - Porto, Píer, Cais, etc.</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">A3 - Sistema de Comunicação</a></li>
+            <li><a href="#!">A4 - Sistema de Segurança</a></li>
+            <li><a href="#!">A5 - Sistema de Saúde</a></li>
+            <li><a href="#!">A6 - Sistema Educacional</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">A7.1 - Locadoras de Imóveis para Temporada</a></li>
+            <li><a href="#!">A7.2 - Compras Especiais</a></li>
+            <li><a href="#!">A7.3 - Comércio Turístico</a></li>
+            <li><a href="#!">A7.4 - Serviços Bancários</a></li>
+            <li><a href="#!">A7.5.6 - Serviços Mecânicos e Posto de Combustível</a></li>
+            <li><a href="#!">A7.7 - Representações Diplomáticas</a></li>
+      </ul>
+
+<!--
+---------------------------------------------------------------------------------------------------------
+Início da área de testes
+---------------------------------------------------------------------------------------------------------
+-->
+
+
+
+<!--
+---------------------------------------------------------------------------------------------------------
+Fim da área de testes
+---------------------------------------------------------------------------------------------------------
+-->
+
   
-  
-  <!-- teste de menu para os formulários A até C 
-  Recurso utilizado: javaScript - Badges: Collapsible HTML Structure - accordion
-  -->
-  <div class="row">
-    <div class="col s4">
-          <ul class="collapsible" data-collapsible="accordion">
-            <li>
-              <div class="collapsible-header"><i class="material-icons">filter_drama</i>Formulários: Categoria A</div>
-              <div class="collapsible-body">
-                  <!-- Inserido teste para itens collapsible contendo listas. Foi alterada a class da lista para collapsible com êxito-->
-                  <ul id="menuFormulariosA" class="collapsible">
-                    <li><a href="#!">A1 - Informações Básicas do Município</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">A2.1.1 - Rodoviário - Rodovia</a></li>
-                    <li><a href="#!">A2.1.2 - Rodoviário - Estação Rodoviária</a></li>
-                    <li><a href="#!">A2.2.1 - Ferroviário - Ferrovia e Metrovia</a></li>
-                    <li><a href="#!">A2.2.2 - Ferroviário - Estação Ferroviária</a></li>
-                    <li><a href="#!">A2.3 - Aeroviário - Aeroporto e Campo de Pouso</a></li>
-                    <li><a href="#!">A2.3 - Aeroviário - Heliporto</a></li>
-                    <li><a href="#!">A2.4.1- Aquaviário - Hidrovia</a></li>
-                    <li><a href="#!">A2.4.2- Aquaviário - Porto, Píer, Cais, etc.</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">A3 - Sistema de Comunicação</a></li>
-                    <li><a href="#!">A4 - Sistema de Segurança</a></li>
-                    <li><a href="#!">A5 - Sistema de Saúde</a></li>
-                    <li><a href="#!">A6 - Sistema Educacional</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">A7.1 - Locadoras de Imóveis para Temporada</a></li>
-                    <li><a href="#!">A7.2 - Compras Especiais</a></li>
-                    <li><a href="#!">A7.3 - Comércio Turístico</a></li>
-                    <li><a href="#!">A7.4 - Serviços Bancários</a></li>
-                    <li><a href="#!">A7.5.6 - Serviços Mecânicos e Posto de Combustível</a></li>
-                    <li><a href="#!">A7.7 - Representações Diplomáticas</a></li>
-                  </ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header"><i class="material-icons">place</i>Formulários: Categoria B</div>
-              <div class="collapsible-body">
-                  <ul id="menuFormulariosB" class="collapsible">
-                    <li><a href="#!">B1.1 - Meios de Transporte</a></li>
-                    <li><a href="#!">B1.2 - Outro tipo de Acomodação</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">B2 - Serviços e equipamentos para alimentos e bebidas</a></li>
-                    <li><a href="#!">B3 - Serviços e equipamentos para agências de turismo</a></li>
-                    <li><a href="#!">B4 - Serviços e equipamentos de transporte turístico</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">B5.1 - Espaço para eventos</a></li>
-                    <li><a href="#!">B5.2 - Serviços para eventos</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">B6.1 - Parques</a></li>
-                    <li><a href="#!">B6.2 - Espaços livres e áreas verdes</a></li>
-                    <li><a href="#!">B6.3 - Instalações esportivas</a></li>
-                    <li><a href="#!">B6.4 - Instalações náuticas</a></li>
-                    <li><a href="#!">B6.5 - Espaços de diversão e cultura</a></li>
-                    <li><a href="#!">B6.6 - Outros espaços de recreação</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#!">B7.1 - Informações turísticas</a></li>
-                    <li><a href="#!">B7.2 - Entidades associativas e similares</a></li>
-                    <li><a href="#!">B7.3 - Guiamento e condução turística</a></li>
-                  </ul>
-              </div>
-            </li>
-            
-            <li>
-              <div class="collapsible-header"><i class="material-icons">place</i>Formulários: Categoria C</div>
-              <div class="collapsible-body">
-                  <ul id="menuFormulariosC" class="collapsible">
-                    <li><a href="#!">C1.1 - Relevo Continental</a></li>
+      <!-- teste de menu para os formulários A até C 
+      Recursos utilizados: 
+       - Barra de navegação com uso de listas adaptado nas classes -> side-nav fixed 
+       - javaScript - Badges: Collapsible HTML Structure - accordion
+       - waves-effect, waves-teal: para efeito de luz quando selecionado
+      -->
+    <ul id="navegacao-mobile" class="side-nav fixed">
+            <ul id="menuForms" class="collapsible" data-collapsible="accordion">
+                  <li>
+                    <div class="collapsible-header waves-effect waves-teal" ><i class="material-icons">filter_drama</i>Formulários: Categoria A</div>
+                        <div class="collapsible-body flow-text">
+                            <!-- Inserido teste para itens collapsible contendo listas. Foi alterada a class da lista para collapsible com êxito-->
+                            <ul id="menuFormulariosA">
+                              <li><a href="formularios/form-invitur-A1.php">A1 - Informações Básicas do Município</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#!">A2.1.1 - Rodoviário - Rodovia</a></li>
+                              <li><a href="#!">A2.1.2 - Rodoviário - Estação Rodoviária</a></li>
+                              <li><a href="#!">A2.2.1 - Ferroviário - Ferrovia e Metrovia</a></li>
+                              <li><a href="#!">A2.2.2 - Ferroviário - Estação Ferroviária</a></li>
+                              <li><a href="#!">A2.3 - Aeroviário - Aeroporto e Campo de Pouso</a></li>
+                              <li><a href="#!">A2.3 - Aeroviário - Heliporto</a></li>
+                              <li><a href="#!">A2.4.1- Aquaviário - Hidrovia</a></li>
+                              <li><a href="#!">A2.4.2- Aquaviário - Porto, Píer, Cais, etc.</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#!">A3 - Sistema de Comunicação</a></li>
+                              <li><a href="#!">A4 - Sistema de Segurança</a></li>
+                              <li><a href="#!">A5 - Sistema de Saúde</a></li>
+                              <li><a href="#!">A6 - Sistema Educacional</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#!">A7.1 - Locadoras de Imóveis para Temporada</a></li>
+                              <li><a href="#!">A7.2 - Compras Especiais</a></li>
+                              <li><a href="#!">A7.3 - Comércio Turístico</a></li>
+                              <li><a href="#!">A7.4 - Serviços Bancários</a></li>
+                              <li><a href="#!">A7.5.6 - Serviços Mecânicos e Posto de Combustível</a></li>
+                              <li><a href="#!">A7.7 - Representações Diplomáticas</a></li>
+                            </ul>
+                        </div>
+                  </li>
+          <li>
+            <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">place</i>Formulários: Categoria B</div>
+                <div class="collapsible-body flow-text">
+                    <ul id="menuFormulariosB">
+                      <li><a href="#!">B1.1 - Meios de Transporte</a></li>
+                      <li><a href="#!">B1.2 - Outro tipo de Acomodação</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#!">B2 - Serviços e equipamentos para alimentos e bebidas</a></li>
+                      <li><a href="#!">B3 - Serviços e equipamentos para agências de turismo</a></li>
+                      <li><a href="#!">B4 - Serviços e equipamentos de transporte turístico</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#!">B5.1 - Espaço para eventos</a></li>
+                      <li><a href="#!">B5.2 - Serviços para eventos</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#!">B6.1 - Parques</a></li>
+                      <li><a href="#!">B6.2 - Espaços livres e áreas verdes</a></li>
+                      <li><a href="#!">B6.3 - Instalações esportivas</a></li>
+                      <li><a href="#!">B6.4 - Instalações náuticas</a></li>
+                      <li><a href="#!">B6.5 - Espaços de diversão e cultura</a></li>
+                      <li><a href="#!">B6.6 - Outros espaços de recreação</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#!">B7.1 - Informações turísticas</a></li>
+                      <li><a href="#!">B7.2 - Entidades associativas e similares</a></li>
+                      <li><a href="#!">B7.3 - Guiamento e condução turística</a></li>
+                    </ul>
+                </div>
+          </li>
+
+          <li>
+            <div class="collapsible-header waves-effect waves-teal"><i class="material-icons">place</i>Formulários: Categoria C</div>
+                <div class="collapsible-body flow-text">
+                    <ul id="menuFormulariosC">
+                        <li><a href="#!">C1.1 - Relevo Continental</a></li>
                         <li><a href="#!">C1.2 - Zona Costeira</a></li>
                         <li><a href="#!">C1.3 - Relevo Cárstico</a></li>
                         <li><a href="#!">C1.4 - Hidrografia</a></li>
@@ -144,113 +160,115 @@
                         <li class="divider"></li>
                         <li><a href="#!">C4 - Atrações técnicas e científicas</a></li>
                         <li><a href="#!">C5 - Eventos programados</a></li>
-                  </ul>
-              </div>
-            </li>
-          </ul>
-    </div>
-  </div> 
-  
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Projeto Invitur - Ifsc Garopaba</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Plataforma responsíva para realização do Inventariado Turístico da região de Garopaba</h5>
-        </div>
-        <div class="row center">
-            <a href="materialize-for-invitur-A1.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A1 - Municípios</a>
-          <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A2.1.1 - Rodovia</a>-->
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-      <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
-            <h5 class="center">Categoria A</h5>
-
-            <p class="light">Formulários contendo informações básicas do município e de serviços de Transporte.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
-            <h5 class="center">Categoria B</h5>
-
-            <p class="light">Formulários para cadastros de Meios de hospedagem, serviços e equipamentos de agências de turismo, instalações diversas e entidades diversas.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Categoria C</h5>
-
-            <p class="light">Formulários para cadastro de informações sobre o relevo, hidrografia, obras, gastronomia e atrações técnicas e científicas.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+                    </ul>
+                </div>
+          </li>
+        </ul>
+    </ul>
       
-    <div class="footer-copyright">
+    <!-- 
+        Final do corpo do menu mobile 
+    ---------------------------------------------------------------------------------------------------------------------------
+    -->
+        
+        <div id="index-banner" class="parallax-container">
+          <div class="section no-pad-bot">
+            <div class="container">
+              <br><br>
+              <h1 class="header center teal-text text-lighten-2">Projeto Invitur - Ifsc Garopaba</h1>
+              <div class="row center">
+                <h5 class="header col s12 light">Plataforma responsíva para realização do Inventariado Turístico da região de Garopaba</h5>
+              </div>
+              <div class="row center">
+                  <a href="formularios/form-invitur-A1-collapsible.php" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A1 - Municípios</a>
+                <!-- <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">A2.1.1 - Rodovia</a>-->
+              </div>
+              <br><br>
+
+            </div>
+          </div>
+            <div class="parallax"><img src="img/background1.jpg" alt="Unsplashed background img 2"></div>
+        </div>
+
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="mdi-image-flash-on"></i></h2>
+                <h5 class="center">Categoria A</h5>
+
+                <p class="light">Formulários contendo informações básicas do município e de serviços de Transporte.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="mdi-social-group"></i></h2>
+                <h5 class="center">Categoria B</h5>
+
+                <p class="light">Formulários para cadastros de Meios de hospedagem, serviços e equipamentos de agências de turismo, instalações diversas e entidades diversas.</p>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="mdi-action-settings"></i></h2>
+                <h5 class="center">Categoria C</h5>
+
+                <p class="light">Formulários para cadastro de informações sobre o relevo, hidrografia, obras, gastronomia e atrações técnicas e científicas.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
-    </div>
-  </footer>
+
+    <footer class="page-footer teal">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Company Bio</h5>
+            <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="materialize/js/materialize.js"></script>
-  <script src="js-acoes/init.js"></script>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-  </body>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+    <script src="js-acoes/init.js"></script>
+</body>
 </html>
 
 

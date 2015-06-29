@@ -8,10 +8,10 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Formulário - Categoria A1 - Informações Básicas do Município</title>
-        <link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css" media="screen" />
-        <script src="jquery/jquery-1.11.3.min_1.js"></script>
-        <script src="materialize/js/materialize.js"></script>
-        <script src="js-acoes/init.js"></script>
+        <link rel="stylesheet" type="text/css" href="../materialize/css/materialize.min.css" media="screen" />
+        <script src="../jquery/jquery-1.11.3.min_1.js"></script>
+        <script src="../materialize/js/materialize.js"></script>
+        <script src="../js-acoes/init.js"></script>
     </head>
     <body>
         <form class="" action="">
