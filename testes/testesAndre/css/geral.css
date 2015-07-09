@@ -7,9 +7,8 @@ and open the template in the editor.
     Created on : 28/06/2015, 21:47:29
     Author     : andre
 */
-
- header, main, footer,index-banner, footer-copyright{
-    padding-left: 240px;
+  header, main, footer {
+    padding-left: 350px;
   }
 
   @media only screen and (max-width : 992px) {

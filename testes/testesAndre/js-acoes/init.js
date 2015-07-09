@@ -11,7 +11,12 @@ $(document).ready(function () {
         accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
     $(".dropdown-button").dropdown(); //carregando os menus dropdown
-    $('.button-collapse').sideNav(); //carregando os menus contraídos
+    $(".button-collapse").sideNav({
+        menuWidth: 350, // Default is 240
+        edge: 'left', // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }); //carregando os menus contraídos
+    //
     //
     //Início da área de testes
     //-----------------------------------------------------------------------
